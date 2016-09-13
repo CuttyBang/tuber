@@ -47,7 +47,7 @@ $(document).ready(function(){
        name=y.snippet.title;
       $('#search-results').append('<a href=https://www.youtube.com/watch?v='+link+
         ' target="_blank"><img src='+url+'></a>');
-      $('#search-results').append('<div><p class="titles inner"><a href="http://www.youtubeinmp3.com/download/?video=https://www.youtube.com/watch?v='+link+'&autostart=1" target="_blank">'+name+'</a></p></div>')
+      $('#search-results').append('<div><p class="titles inner"><a href="http://www.youtubeinmp3.com/download/?video=https://www.youtube.com/watch?v='+link+'" target="_blank">'+name+'</a></p></div>')
 
     });
   }
