@@ -128,3 +128,22 @@ SEARCH FORM
 #list {
   list-style: none;
 }
+
+.titles a{
+	text-decoration: none;
+	color: $font-color;
+	font-size: 2rem;
+}
+
+.titles a:hover{
+	color: #a2a2a2;
+}
+
+.titles a:active{
+	color: #d6ff0e;
+	outline: 0;
+}
+
+.titles a::selection{
+	outline: 0;
+}
