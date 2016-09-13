@@ -1,0 +1,130 @@
+/*****************
+VARIABLES
+*****************/
+
+$tablet: 'min-width: 768px';
+$desktop: 'min-width: 1024px';
+$font-color: #eee;
+$font-stack: 'Play', Helvetica, sans-serif;
+$background-color: #222;
+
+/*****************
+GLOBAL
+*****************/
+
+*:focus {
+	outline: none;
+}
+
+
+html,
+body {
+  height: 100%;
+
+}
+
+body {
+  background-color: $background-color;
+  color: $font-color;
+  font-family: $font-stack;
+  text-align: center;
+  margin: 0;
+  background-image: url('../img/rebel.png');
+  background-repeat: repeat;
+}
+
+.cover {
+  padding: 0 20px;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+  p {
+    line-height: 1.6;
+  }
+}
+
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.inner {
+  padding: 30px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/*****************
+SEARCH FORM
+*****************/
+.logo {
+  width: 100%;
+  height: 20%;
+  margin-top: 10px;
+	@media screen and ($tablet){
+		margin-top: 20px;
+	}
+	@media screen and ($desktop){
+		margin-top: 40px;
+	}
+}
+
+#tagline{
+  font-size: 1em;
+	@media screen and ($tablet){
+		font-size: 1.5em;
+  }
+	@media screen and ($desktop){
+		font-size: 3em;
+	}
+}
+
+#search-term{
+  color: #222;
+}
+
+
+#this {
+	max-width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+}
+
+
+#query {
+	width: 50%;
+	font-size: 0.75em;
+	@media screen and ($tablet){
+		font-size: 1em;
+	}
+	@media screen and ($desktop){
+		font-size: 1.2em;
+	}
+}
+
+#searcher {
+	font-size: 1.2em;
+	@media screen and ($tablet){
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+	@media screen and ($desktop){
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+}
+
+#search-results {
+	max-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#list {
+  list-style: none;
+}
